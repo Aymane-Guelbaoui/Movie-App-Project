@@ -1,11 +1,14 @@
+@font-face {
+    font-family: "Saira";
+    src: url(../src/assets/fonts/Saira/static/Saira-Light.ttf);
+}
+
 :root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
+  font-family: "Saira", sans-serif;
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  background-color: #ffffff;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -39,11 +42,11 @@ body {
 
 a {
   font-weight: 500;
-  color: #646cff;
+  color: #F1F1F1;
   text-decoration: inherit;
 }
 a:hover {
-  color: #535bf2;
+  color: #7AB2B2;
 }
 
 h1 {
@@ -63,7 +66,7 @@ button {
   transition: border-color 0.25s;
 }
 button:hover {
-  border-color: #646cff;
+  border-color: #F1F1F1;
 }
 button:focus,
 button:focus-visible {
@@ -76,7 +79,7 @@ button:focus-visible {
     background-color: #ffffff;
   }
   a:hover {
-    color: #747bff;
+    color: #1e999c;
   }
   button {
     background-color: #f9f9f9;
